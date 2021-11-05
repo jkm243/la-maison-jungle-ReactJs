@@ -1,0 +1,13 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-logo{
+    object-fit: contain;
+    width: 100px;
+    object-fit: contain;
+}
+.banner-name{
+    object-fit: contain;
+}
