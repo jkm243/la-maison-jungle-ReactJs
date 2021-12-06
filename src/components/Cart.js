@@ -8,9 +8,9 @@ function Cart() {
             <div className="cart-element">
                 <ul>
                     <li>Monstera : 8</li>
-                    <li>Monstera : 8</li>
-                    <li>Monstera : 8</li>
-                    <li>Monstera : 8</li>
+                    <li>Rose : 5</li>
+                    <li>Violette : 7</li>
+                    <li>Tournesol : 10</li>
                 </ul>
             </div>
             <div className="cart-total">
