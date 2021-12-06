@@ -10,7 +10,7 @@ function Cart() {
                     <li>Monstera : 8</li>
                     <li>Rose : 5</li>
                     <li>Violette : 7</li>
-                    <li>Tournesol : 80</li>
+                    <li>Tournesol : 90</li>
                 </ul>
             </div>
             <div className="cart-total">
