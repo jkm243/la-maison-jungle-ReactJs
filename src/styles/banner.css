@@ -1,13 +1,19 @@
-.banner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.banner {
+  color: black;
+  text-align: right;
+  padding: 32px;
+  border-bottom: solid 3px black;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
 }
-.banner-logo{
-    object-fit: contain;
-    width: 100px;
-    object-fit: contain;
+.banner-logo {
+  object-fit: contain;
+  height: 45px;
+  width: 45px;
 }
-.banner-name{
-    object-fit: contain;
+.banner-name {
+  object-fit: contain;
+  padding-left: 32px;
 }

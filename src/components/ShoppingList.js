@@ -10,20 +10,21 @@ function ShoppingList() {
 
     return (
         <div className='list'>
-            <h2>Categories</h2>
-            <ul >
-                {categories.map((cat) => (
-                    <li key={cat}>{cat}</li>
-                    
-                ))}
-            </ul>
-            <h2>Plantes</h2>
-            <ul>
-                {plantList.map((plant) => (
-                    <li key={plant.id}>{plant.name}{plant.isBestSale ? <span>🔥</span> : null}</li>
-                ))}
+            <div>
+			<ul>
+				{categories.map((cat) => (
+					<li key={cat}>{cat}</li>
+				))}
+			</ul>
+			<ul className='lmj-plant-list'>
+				{plantList.map((plant) => (
+					<li key={plant.id} className='lmj-plant-item'>
+						{plant.name}{plant.isSpecialOffer && <span className="lmj-sales"></span>}
+					</li>
+				))}
                 
-            </ul>
+			</ul>
+		</div>
         </div>
     )
 }
